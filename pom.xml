@@ -15,9 +15,16 @@
     <dependencies>
         <!-- 引入自动配置模块 -->
         <dependency>
-            <groupId>com.alone</groupId>
+            <groupId>com.github.zhouxianjun</groupId>
             <artifactId>dynamic-datasource-spring-boot-autoconfigure</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>b73b51fe3d</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 </project>
